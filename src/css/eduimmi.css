@@ -1,0 +1,126 @@
+body 
+{ 
+	background: #e5ecf1;
+	width:1000px;
+	padding:5px;
+	margin: 0px auto;
+}
+
+#frames_left
+{	
+	width:200px;
+	height:auto;
+	float:left;
+	margin-top:10px;
+	display:inline;
+}
+	
+#frames_center
+{
+	width:590px;
+	height:auto;
+	float:left;
+	margin: 10px 0px 5px 10px;
+	padding:0px;
+	display:inline;
+}
+	
+#frames_right
+{
+	width:190px;
+	float:left;
+	clear:right;
+	margin:10px 0px 0px 10px;
+	display:inline;
+}
+
+.menu_list .menu_body 
+{
+	display:block;
+}
+
+.menu_list .menu_head {
+	cursor: pointer;
+	padding: 3px 3px 3px 20px;
+	margin:2px;
+	background-color: #20c997;
+	display: block;
+}
+
+.menu_list .menu_body a
+{
+  display:block;
+  color:#006699;
+  background-color:#FF9999;
+  padding: 2px 0px 2px 10px;
+  margin: 1px 3px 1px 3px;
+  text-decoration:none;
+}
+
+.frame .frame_link a
+{
+	cursor: pointer;
+	padding: 3px 3px 3px 20px;
+	margin:3px;
+	color:white;
+	background-color: #FF9966 ;
+	display: block;
+}
+
+.frame_body
+{
+	padding: 2px 0px 2px 2px;
+	background-color: #EFEFEF;
+}
+
+.frame_body p
+{
+	padding-left: 5px;
+}
+
+/** common **/
+
+.frame
+{
+	border: 1px solid rgb(255,151,0);
+	margin-bottom: 8px;
+}
+
+.frame_title
+{
+	text-align:center;
+	font-size:1.5em;
+	padding:5px 0px 2px 0px;
+	color:white;
+	font-family:\5B8B\4F53;
+	background-color:rgb(255,151,0);
+}
+
+.frame a:hover 
+{
+	color:red;
+	font-size:1.1em;
+
+}
+ 
+.center
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.middle
+{
+	vertical-align:middle;
+}
+
+.float_left
+{
+	float:left;
+	margin:10px;
+}
+
+.included
+{
+	height:0px;
+}
