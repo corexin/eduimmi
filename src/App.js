@@ -15,7 +15,7 @@ export default class App extends React.Component {
     }
 
     handleMenu =(e) =>{
-
+        e.preventDefault();
         let menuvalue = e.target.innerHTML;
         let displayTitle = Data.data[menuvalue]['title'];
         let displayValue = Data.data[menuvalue]['content'];
