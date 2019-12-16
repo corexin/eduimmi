@@ -24,6 +24,7 @@ export default class App extends React.Component {
                 title: displayTitle,
                 content:  displayValue
         });
+        window.scrollTo(0, 0);
     }
 
     render() {
