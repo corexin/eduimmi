@@ -19,7 +19,8 @@ export default class App extends React.Component {
         let menuvalue = e.target.innerHTML;
         let displayTitle = Data.data[menuvalue]['title'];
         let displayValue = Data.data[menuvalue]['content'];
-                this.mainFrame.current.setState({
+
+        this.mainFrame.current.setState({
                 title: displayTitle,
                 content:  displayValue
         });

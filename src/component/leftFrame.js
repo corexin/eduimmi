@@ -1,24 +1,28 @@
 import React from 'react';
 import './leftFrameMenu'
 import LeftFrameMenu from "./leftFrameMenu";
+import Menu from "./data"
 
 export default class LeftFrame extends React.Component {
+
+    renderMenuItems= () => {
+        const allItems = Menu.MENU;
+        const allMenuItems = Object.keys(allItems).map( (key) =>(
+            <LeftFrameMenu key={key} heading={key} menuItems={allItems[key]} parentHandleMenuItem={this.props.parentHandleMenuItem} />
+        ));
+        console.log(allMenuItems);
+        return allMenuItems;
+    }
+
     render() {
-        const myItems = ['item 1','item 2'];
-        const myItems1 = ['item 3','item 4'];
-
-
         return (
             <div id="frames_left">
-                <div className="frame">
-                    <div className="frame_title">Menu</div>
+                <div className='card border-primary'>
+                    <div className="card-header bg-info text-center"><h4>Menu</h4></div>
                     <div className="frame_body">
                         <div className="menu_list">
-                            <LeftFrameMenu heading={'Heading1'} menuItems={myItems} parentHandleMenuItem={this.props.parentHandleMenuItem}/>
-
-                            <LeftFrameMenu heading={'Heading2'} menuItems={myItems1} parentHandleMenuItem={this.props.parentHandleMenuItem}/>
+                            {this.renderMenuItems()}
                         </div>
-
                     </div>
                 </div>
             </div>

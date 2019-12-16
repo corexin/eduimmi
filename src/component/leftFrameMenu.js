@@ -8,8 +8,9 @@ export default class LeftFrameMenu extends React.Component {
         });
 
         return (
-            <div>
-                <p className="menu_head">{this.props.heading}</p>
+
+            <div className='card border-primary mt-1'>
+                <p className="card-header bg-info text-center">{this.props.heading}</p>
                 <div className="menu_body">
 
                     {result}
