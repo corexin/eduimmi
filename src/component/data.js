@@ -454,14 +454,14 @@ export default class Data {
                 "</li>\n" +
                 "</ol>\n" +
                 "\n"},
-        "Contact Info": {title:"Contact Info", content: "<address>\n" +
-                "Address: 362 George Street, Brisbane, QLD 4000\n" +
-                "Telephone: 0061-7-32100916\n" +
-                "Mobile: 0061-433456981\n" +
-                "Email:eduimmi@gmail.com\n" +
-                "Address: www.eduimmi.com.au\n" +
-                "</address>\n" +
-                "<p>Wechat:  eduimmi </p>\n"},
+        "Contact Info": {title:"Contact Info", content:
+                "<p>\n" +
+                "                Address: 362 George Street, Brisbane, QLD 4000<br/>\n" +
+                "                Telephone: 0061-7-32100916<br/>\n" +
+                "                Mobile: 0061-433456981<br/>\n" +
+                "                Email:eduimmi@gmail.com<br/>\n" +
+                "                Address: www.eduimmi.com.au<br/>\n" +
+                "                </p><p>Wechat:  eduimmi </p>"},
     };
 }
 
