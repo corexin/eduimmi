@@ -16,14 +16,27 @@ export default class App extends React.Component {
 
     handleMenu =(e) =>{
         e.preventDefault();
-        let menuvalue = e.target.innerHTML;
-        let displayTitle = Data.data[menuvalue]['title'];
-        let displayValue = Data.data[menuvalue]['content'];
+        let menuValue = e.target.innerHTML;
+        let displayTitle = Data.data[menuValue]['title'];
+        let displayValue = Data.data[menuValue]['content'];
 
-        this.mainFrame.current.setState({
+        if(menuValue==="Skilled Independent Visas")
+        {
+            this.mainFrame.current.setState({
                 title: displayTitle,
+                SkilledIndependentVisasVisible:true,
                 content:  displayValue
-        });
+            });
+        }
+        else
+        {
+            this.mainFrame.current.setState({
+                title: displayTitle,
+                SkilledIndependentVisasVisible:false,
+                content:  displayValue
+            });
+        }
+
         window.scrollTo(0, 0);
     }
 

@@ -1,4 +1,4 @@
-
+import Contact from "./../img/contact.png"
 export default class Data {
 
     static MENU = {
@@ -282,7 +282,7 @@ export default class Data {
                 "<li>The cradle of technological entrepreneurship, high-tech companies have easier access to funds from overseas capital markets, turning Chinese technology into overseas technology, and paving the way for overseas capital to enter technology.</li>\n" +
                 "<li>With the reputation of an Australian company (foreign or joint venture), once invest and operate in China, the company can enjoy various preferential policies of the Chinese government, such as large part of the costs of the company's offices in China (including wages, advertising costs, office rents, Air tickets, etc.) can be exempted. Suitable for trading companies.</li>\n" +
                 "</ol>"},
-        "Skilled Independent Visas": {title:"Skilled Independent Visas", content: "Skilled Independent Visas content"},
+        "Skilled Independent Visas": {title:"Skilled Independent Visas", content: ""},
         "Parents Visa": {title:"Parents Visa",
             content: "<h4>Parents Visa</h4>\n" +
                 "Generally, the following are requirements for all parent categories:\n" +
@@ -304,7 +304,6 @@ export default class Data {
                 "<li>Contributory Aged Parent Residence (subclass 864)</li>\n" +
                 "<li>Contributory Aged Parent Temporary (subclass 884)</li>\n" +
                 "</ul>\n" +
-                " \n" +
                 "<h4>Applying for this visa</h4>\n" +
                 "You need:\n" +
                 "<ul>\n" +
@@ -323,7 +322,6 @@ export default class Data {
                 "<li>you either live together or don't live permanently apart</li>\n" +
                 "<li>you are not related by family</li>\n" +
                 "</ul>\n" +
-                "\n" +
                 "<p>Tell us in writing about:</p>\n" +
                 "<ul>\n" +
                 "<li>how, when and where you first met</li>\n" +
@@ -371,11 +369,9 @@ export default class Data {
                 "</ul>\n"},
 
         "EQI": {title:"EQI",
-            content: "<b>Introduction</b>\n" +
-                "https://eqi.com.au/\n" +
-                "\n" +
+            content: "<b>Introduction</b>" +
+                "<p><a href='https://eqi.com.au/'>https://eqi.com.au</a></p>" +
                 "<p>EQI is for the international branch of the Queensland Department of Education (Department of Education International).</p>\n" +
-                "\n" +
                 "<p>EQI offer a wide range of short- and long-term programs for international students of all ages to study in a Queensland Government School. International student programs include: </p>\n" +
                 "<ul>\n" +
                 "<li>Primary school</li>\n" +
@@ -385,10 +381,8 @@ export default class Data {
                 "<li>International Baccalaureate</li>\n" +
                 "<li>Holiday adventure programs</li>\n" +
                 "</ul>\n" +
-                "\n" +
                 "<p>EQI also offers:</p>\n" +
                 "Study tours for short-term visits, which combine educational, tourism and cultural activities for groups of international students\n" +
-                "\n" +
                 "<p>EQI School List:</p>\n" +
                 "https://eqi.com.au/find-a-school/eqi-school-list"},
         "Griffith College": {title:"Griffith College",
@@ -461,7 +455,8 @@ export default class Data {
                 "                Mobile: 0061-433456981<br/>\n" +
                 "                Email:eduimmi@gmail.com<br/>\n" +
                 "                Address: www.eduimmi.com.au<br/>\n" +
-                "                </p><p>Wechat:  eduimmi </p>"},
+                "                </p><p>Wechat: eduimmi </p>"
+                 },
     };
 }
 
