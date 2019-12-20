@@ -455,14 +455,12 @@ export default class Data {
                 "\n"},
         "Contact Info": {title:"Contact Info", content:
                 "<p>" +
-                "                Address: 362 George Street, Brisbane, QLD 4000<br/>\n" +
-                "                Telephone: 0061-7-32100916<br/>\n" +
-                "                Mobile: 0061-433456981<br/>\n" +
-                "                Email:eduimmi@gmail.com<br/>\n" +
-                "                Address: www.eduimmi.com.au<br/>\n" +
-                "                </p><p>Wechat:  eduimmi </p> <img src='./img/contact.png' />"
-
-        },
+                "                Address: 362 George Street, Brisbane, QLD 4000<br/>" +
+                "                Telephone: 0061-7-32100916<br/>" +
+                "                Mobile: 0061-433456981<br/>" +
+                "                Email:eduimmi@gmail.com<br/>" +
+                "                Address: www.eduimmi.com.au<br/>" +
+                "                <p>Wechat: eduimmi</p>"},
     };
 }
 
