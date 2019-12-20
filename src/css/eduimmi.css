@@ -90,15 +90,6 @@ body
 	margin-bottom: 8px;
 }
 
-.frame_title
-{
-	text-align:center;
-	font-size:1.5em;
-	padding:5px 0px 2px 0px;
-	color:white;
-	font-family:\5B8B\4F53;
-	background-color:rgb(255,151,0);
-}
 
 .frame a:hover 
 {
@@ -106,25 +97,7 @@ body
 	font-size:1.1em;
 
 }
- 
-.center
-{
-	margin-left:auto;
-	margin-right:auto;
-}
 
-.middle
-{
-	vertical-align:middle;
-}
-
-.float_left
-{
-	float:left;
-	margin:10px;
-}
-
-.included
-{
-	height:0px;
+table tr td{
+	padding: 5px;
 }

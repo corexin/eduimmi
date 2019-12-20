@@ -24,7 +24,6 @@ export default class App extends React.Component {
         {
             this.mainFrame.current.setState({
                 title: displayTitle,
-                SkilledIndependentVisasVisible:true,
                 content:  displayValue
             });
         }
@@ -32,7 +31,6 @@ export default class App extends React.Component {
         {
             this.mainFrame.current.setState({
                 title: displayTitle,
-                SkilledIndependentVisasVisible:false,
                 content:  displayValue
             });
         }
@@ -40,10 +38,20 @@ export default class App extends React.Component {
         window.scrollTo(0, 0);
     }
 
+    handleContact =(e) =>{
+        let displayTitle = Data.data["Contact Info"]['title'];
+        let displayValue = Data.data["Contact Info"]['content'];
+
+        this.mainFrame.current.setState({
+            title: displayTitle,
+            content:  displayValue
+        });
+    }
+
     render() {
         return (
             <div>
-            <Header />
+            <Header parentHandleMenuItem={this.handleContact}/>
             <div className="d-flex p-2">
 
                 <LeftFrame parentHandleMenuItem={this.handleMenu} />

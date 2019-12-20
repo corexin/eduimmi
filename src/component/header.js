@@ -6,11 +6,21 @@ import 'bootstrap/dist/css/bootstrap.css'
 export default class Header extends React.Component {
     render() {
         return (
-            <div id="header" className='container row'>
-                    <div className='col-' >
-                        <a href="./"> <img src={logo}  alt={'EduImmi'}/></a>
-                    </div>
-                    <div className='col- font-weight-bold text-info mt-auto'>www.eduimmi.com.au</div>
+            <div className="container-fluid">
+            <div className = "row align-items-baseline" >
+                <div className = "col-" >
+                    <a href="./"> <img src={logo}  alt={'Eduimmi.com.au'}/></a>
+                </div>
+                <div className="col-auto mr-auto mt-auto">
+                    <h4 className="text-info">www.eduimmi.com.au</h4>
+                </div>
+                <div className = "col-auto mt-sm-auto" >
+                    <a href='/cn' className="btn btn-info btn-lg  align-items-md-end">中文</a>
+                </div>
+                <div className = "col-auto  mt-sm-auto" >
+                    <button type="button" className="btn btn-info btn-lg  align-items-md-end" onClick={this.props.parentHandleMenuItem}>Contact Us</button>
+                </div>
+            </div>
             </div>
         )
     };

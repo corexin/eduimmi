@@ -2,6 +2,7 @@ import React from 'react';
 import { Markup } from 'interweave';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import SkilledIndependentVisas from "./skilledIndpendentVisas";
+import ContactUs from "./contactUs";
 
 export default class MainFrame extends React.Component {
 
@@ -9,7 +10,6 @@ export default class MainFrame extends React.Component {
         super(props);
         this.state = {
             title: "Company Info",
-            SkilledIndependentVisasVisible:false,
             content: "<div>\n" +
                 "                <p><b>Company Name</b> Victor International Pty Ltd</p>\n" +
                 "                <p><b>Australian Business Registration Number (ABN)</b> 64 124 030 897</p>\n" +
@@ -29,7 +29,8 @@ export default class MainFrame extends React.Component {
                     <div className="card-header bg-info"><h4>{this.state.title}</h4></div>
                     <div className="card-body">
                         <Markup content={output} />
-                        {this.state.SkilledIndependentVisasVisible &&  <SkilledIndependentVisas /> }
+                        {this.state.title === ("Skilled Independent Visas") &&  <SkilledIndependentVisas /> }
+                        {this.state.title === ("Contact Info") &&  <ContactUs /> }
                     </div>
                 </div>
             </div>
