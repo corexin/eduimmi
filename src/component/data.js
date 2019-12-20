@@ -1,4 +1,4 @@
-
+import Contact from '../img/contact.png'
 export default class Data {
 
     static MENU = {
@@ -6,8 +6,7 @@ export default class Data {
         "Australian Introduction":["Introduction of Australia","Geography","Australia and China"],
         "Education Services": ["Study Advantages", "Study In Australian","Australia Education System","Australian Universities"],
         "Visa and Migration Services":["Migration Advantages", "Skilled Independent Visas","Parents Visa","Spouse Visa"],
-        "Recommended Schools":["EQI","Griffith College","Griffith Uni"],
-        "Contact us": ["Contact Info"]
+        "Recommended Schools":["EQI","Griffith College","Griffith Uni"]
     };
 
     static data = {
@@ -455,13 +454,15 @@ export default class Data {
                 "</ol>\n" +
                 "\n"},
         "Contact Info": {title:"Contact Info", content:
-                "<p>\n" +
+                "<p>" +
                 "                Address: 362 George Street, Brisbane, QLD 4000<br/>\n" +
                 "                Telephone: 0061-7-32100916<br/>\n" +
                 "                Mobile: 0061-433456981<br/>\n" +
                 "                Email:eduimmi@gmail.com<br/>\n" +
                 "                Address: www.eduimmi.com.au<br/>\n" +
-                "                </p><p>Wechat:  eduimmi </p>"},
+                "                </p><p>Wechat:  eduimmi </p> <img src='./img/contact.png' />"
+
+        },
     };
 }
 
