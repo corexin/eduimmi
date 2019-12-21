@@ -19,7 +19,7 @@ export default class LeftFrame extends React.Component {
             <div id="frames_left">
                 <div className='card border-primary'>
                     <div className="card-header bg-info text-center"><h4>Menu</h4></div>
-                    <div className="frame_body">
+                    <div className="frame_body m-2">
                         <div className="menu_list">
                             {this.renderMenuItems()}
                         </div>

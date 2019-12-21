@@ -14,29 +14,15 @@ body
 	margin-top:10px;
 	display:inline;
 }
-	
+
 #frames_center
 {
-	width:80%;
+	width:90%;
 	height:auto;
 	float:left;
 	margin: 10px 0px 5px 10px;
 	padding:0px;
 	display:inline;
-}
-	
-#frames_right
-{
-	width:190px;
-	float:left;
-	clear:right;
-	margin:10px 0px 0px 10px;
-	display:inline;
-}
-
-.menu_list .menu_body 
-{
-	display:block;
 }
 
 .menu_list .menu_head {
@@ -71,33 +57,10 @@ body
 	display: block;
 }
 
-.frame_body
-{
-	padding: 5px;
-	background-color: #EFEFEF;
-}
-
-.frame_body p
-{
-	padding-left: 5px;
-}
 
 /** common **/
 
-.frame
-{
-	border: 1px solid rgb(255,151,0);
-	margin-bottom: 8px;
-}
 
-
-.frame a:hover 
-{
-	color:red;
-	font-size:1.1em;
-
-}
-
-table tr td{
+table tr td {
 	padding: 5px;
 }
