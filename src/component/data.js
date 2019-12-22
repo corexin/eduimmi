@@ -79,7 +79,7 @@ export default class Data {
         "Australia and China": {title:"Australia and China",
             content: "<p>China has been Australia's largest trading partner for eight consecutive years, and Australia is China's eighth largest trading partner. In recent years, China's investment in Australia has grown rapidly, and its annual flow has ranked first. The fields of finance, service industry, agriculture, and infrastructure construction are becoming new growth points for bilateral cooperation. Fro mid-nineteenth century when Chinese first came crossed the ocean and arrived in Australia, till today, the number of overseas Chinese in Australia has reached one million, becoming an important link connecting China and Australia.</p>" +
                 "<p>International education has become Australia's third largest economic industry, contributing more than $ 30 billion to Australia each fiscal year. Only 85,111 Chinese people came to study in higher education in Australia in 2013, but this number has been increasing significantly over the years. Currently, 39% of international students at Australian universities are Chinese.</p>"},
-        "Study Advantages": {title:"Study Advantages", content: "<table border=\"1\" cellspacing=\"0\">\n" +
+        "Study Advantages": {title:"Study Advantages", content: "<table border=\"1\" cellspacing=\"1\">\n" +
                 "  <tbody>\n" +
                 "    <tr>\n" +
                 "      <td>\n" +
@@ -91,7 +91,7 @@ export default class Data {
                 "    </tr>\n" +
                 "    <tr>\n" +
                 "      <td >\n" +
-                "        2.Beautiful environment\n" +
+                "        2. Beautiful environment\n" +
                 "      </td>\n" +
                 "      <td>\n" +
                 "        In the United Nations’ most suitable places for human habitation in the world, the three major cities of Sydney, Melbourne and Brisbane have been on the list for many years. The climate is pleasant and many cities are world-famous tourist attractions.\n" +
@@ -99,7 +99,7 @@ export default class Data {
                 "    </tr>\n" +
                 "    <tr>\n" +
                 "      <td >\n" +
-                "        3.First-class education\n" +
+                "        3. First-class education\n" +
                 "      </td>\n" +
                 "      <td>\n" +
                 "        The quality of education in Australia has always been&nbsp;recognized. Australia has 12 of the top 100 universities in the world. Australian education is recognized by countries around the world, especially English-speaking countries.\n" +
@@ -139,7 +139,7 @@ export default class Data {
                 "    </tr>\n" +
                 "    <tr>\n" +
                 "      <td >\n" +
-                "        8.Immigration preferences\n" +
+                "        8. Immigration preferences\n" +
                 "      </td>\n" +
                 "      <td>\n" +
                 "        Australia is one of the few countries that accepts immigration on a large scale. It is easier for international students to migrate after graduation.\n" +
@@ -370,11 +370,9 @@ export default class Data {
                 "</ul>\n"},
 
         "EQI": {title:"EQI",
-            content: "<b>Introduction</b>\n" +
-                "https://eqi.com.au/\n" +
-                "\n" +
+            content: "<b>Introduction</b>" +
+                "<p><a href='https://eqi.com.au'>https://eqi.com.au</a></p>" +
                 "<p>EQI is for the international branch of the Queensland Department of Education (Department of Education International).</p>\n" +
-                "\n" +
                 "<p>EQI offer a wide range of short- and long-term programs for international students of all ages to study in a Queensland Government School. International student programs include: </p>\n" +
                 "<ul>\n" +
                 "<li>Primary school</li>\n" +
@@ -384,20 +382,15 @@ export default class Data {
                 "<li>International Baccalaureate</li>\n" +
                 "<li>Holiday adventure programs</li>\n" +
                 "</ul>\n" +
-                "\n" +
                 "<p>EQI also offers:</p>\n" +
                 "Study tours for short-term visits, which combine educational, tourism and cultural activities for groups of international students\n" +
-                "\n" +
                 "<p>EQI School List:</p>\n" +
-                "https://eqi.com.au/find-a-school/eqi-school-list"},
+                "<a href='https://eqi.com.au/find-a-school/eqi-school-list'>https://eqi.com.au/find-a-school/eqi-school-list</a>"},
         "Griffith College": {title:"Griffith College",
             content: "<b>Introduction</b>" +
                 "<p><a href=\"https://www.griffith.edu.au/college\">https://www.griffith.edu.au/college</a></p>" +
-                "\n" +
                 "<p>Located on campus in Brisbane and the Gold Coast, Griffith College is your best on-campus pathway to the second year at Griffith University.  Worried about grades? With lower entry requirements and a more supportive learning environment, Griffith College is your pathway to successful further study.</p>\n" +
-                "\n" +
                 "<p>Located on two of Griffith University campuses at Mt Gravatt and the Gold Coast, you will have the choice between studying near to the thriving capital of Queensland or the more relaxed pace of the Gold Coast.</p>\n" +
-                "\n" +
                 "<b>Pathway to Griffith University</b>\n" +
                 "<ul>\n" +
                 "<li>Foundation</li>\n" +
@@ -418,15 +411,10 @@ export default class Data {
         "Griffith Uni": {title:"Griffith Uni", content: " \n" +
                 "<b>Introduction</b>" +
                 "<p><a href=\"https://www.griffith.edu.au\">https://www.griffith.edu.au</a></p>" +
-                "\n" +
                 "<p>Griffith University is a public research university in South East Queensland on the east coast of Australia. Formally founded in 1971.\n" +
-                "\n" +
                 "<p>Ranking in the top 2% of universities worldwide, Griffith University offers future-focused degrees that are developed in consultation with industry, based on cutting-edge research, and taught by Australia’s most awarded teachers.\n" +
-                "\n" +
                 "<p>The University now has five physical campuses spanning three cities, the largest of which are the Gold Coast campus at Southport and the Nathan campus in Brisbane. The Mount Gravatt and South Bank campuses are also located in Brisbane, while the Logan campus is at Meadowbrook. In 2018, the University launched its Digital campus, now its sixth campus, which offers a range of online degrees. \n" +
-                "\n" +
                 "<p>Griffith has over 50,000 students and offers a full suite of undergraduate, postgraduate and research degrees in the areas of business and government, criminology and law, education, engineering and information technology, environment, planning and architecture, health, humanities and languages, music, science and aviation, and visual and creative arts.\n" +
-                "\n" +
                 "<p><b>Migration Advantage</b></p>" +
                 "<p>Griffith University offers degrees in Accounting, Engineering, Information Technology, Multimedia, Nursing, Social Work, Education, Law... which are all in MLTSSL migration list. \n" +
                 "3 Semesters a year, you can graduate faster than other people.\n" +
@@ -454,13 +442,7 @@ export default class Data {
                 "</ol>\n" +
                 "\n"},
         "Contact Info": {title:"Contact Info", content:
-                "<p>" +
-                "                Address: 362 George Street, Brisbane, QLD 4000<br/>" +
-                "                Telephone: 0061-7-32100916<br/>" +
-                "                Mobile: 0061-433456981<br/>" +
-                "                Email:eduimmi@gmail.com<br/>" +
-                "                Address: www.eduimmi.com.au<br/>" +
-                "                <p>Wechat: eduimmi</p>"},
+                "<p></p>"},
     };
 }
 
