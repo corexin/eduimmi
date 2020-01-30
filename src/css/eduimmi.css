@@ -61,6 +61,8 @@ body
 /** common **/
 
 
-table tr td {
+table tbody tr td:first-of-type {
 	padding: 5px;
+	white-space: nowrap;
+	width: 20%;
 }

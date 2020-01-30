@@ -14,11 +14,8 @@ export default class Header extends React.Component {
                 <div className="col-auto mr-auto mt-auto">
                     <h4 className="text-info">www.eduimmi.com.au</h4>
                 </div>
-                <div className = "col-auto mt-sm-auto" >
-                    <a href='/cn' className="btn btn-info btn-lg  align-items-md-end">中文</a>
-                </div>
                 <div className = "col-auto  mt-sm-auto" >
-                    <button type="button" className="btn btn-info btn-lg  align-items-md-end" onClick={this.props.parentHandleMenuItem}>Contact Us</button>
+                    <button type="button" className="btn btn-info btn-lg  align-items-md-end" onClick={this.props.parentHandleMenuItem}>联系我们</button>
                 </div>
             </div>
             </div>
