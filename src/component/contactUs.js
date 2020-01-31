@@ -6,14 +6,14 @@ export default class ContactUs extends React.Component {
         return (
             <div>
                 <p>
-                    Address: 362 George Street, Brisbane, QLD 4000<br/>
-                    Telephone: 0061-7-32100916<br/>
-                    Mobile: 0061-433456981<br/>
-                    Email:eduimmi@gmail.com<br/>
-                    Address: www.eduimmi.com.au<br/>
+                    地址: 362 George Street, Brisbane, QLD 4000<br/>
+                    电话: 0061-7-32100916<br/>
+                    手机: 0061-433456981<br/>
+                    邮件: eduimmi@gmail.com<br/>
+                    网址: www.eduimmi.com.au<br/>
                  </p>
                  <p>
-                    Wechat:  eduimmi
+                    微信:  eduimmi
                   </p>
                  <img src={WechatQC} alt={'Contact us'} />
             </div>

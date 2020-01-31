@@ -1,18 +1,17 @@
 import React from 'react';
 import './../css/eduimmi.css';
-import logo from './../img/eduimmi.gif'
 import 'bootstrap/dist/css/bootstrap.css'
 
 export default class Header extends React.Component {
     render() {
         return (
             <div className="container-fluid">
-            <div className = "row align-items-baseline" >
+            <div className = "row align-items-baseline d-flex p-2" >
                 <div className = "col-" >
-                    <a href="./"> <img src={logo}  alt={'Eduimmi.com.au'}/></a>
+                   <span class="display-4 text-info">Victor International Pty Ltd</span>
                 </div>
                 <div className="col-auto mr-auto mt-auto">
-                    <h4 className="text-info">www.eduimmi.com.au</h4>
+
                 </div>
                 <div className = "col-auto  mt-sm-auto" >
                     <button type="button" className="btn btn-info btn-lg  align-items-md-end" onClick={this.props.parentHandleMenuItem}>联系我们</button>

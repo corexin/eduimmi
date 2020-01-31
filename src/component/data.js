@@ -1,12 +1,12 @@
-import Contact from '../img/contact.png'
+
 export default class Data {
 
     static MENU = {
         "公司简介": ["公司宗旨", "服务范围", "特色服务","留学移民代理的作用" ],
         "澳洲简介":["澳洲简介","地理","澳中紧密关系"],
         "留学优势": ["留学优势", "留学信息","澳洲学制","澳洲大学"],
-        "Visa and Migration Services":["Migration Advantages", "Skilled Independent Visas","Parents Visa","Spouse Visa"],
-        "Recommended Schools":["EQI","Griffith College","Griffith Uni"]
+        "签证移民":["移民优势", "独立技术移民","父母移民","配偶签证"],
+        "学校推荐":["昆士兰国际教育处","格里菲斯学院","格里菲斯大学"]
     };
 
     static data = {
@@ -197,7 +197,7 @@ export default class Data {
                 "Diploma （ 研究生文凭）和 Master Degree</p>"},
         "澳洲大学": {title:"澳洲大学",
             content: "<b>澳大利亚首都领地 Australian Capital Territory</b>" +
-                "<table border='1'>" +
+                "<table border=\"1\">" +
                 "<tbody>" +
                 "<tr>" +
                 "<td width=\"13.0000%\">" +
@@ -938,173 +938,141 @@ export default class Data {
                 "</table>" 
 
         },
-        "Migration Advantages": {title:"Australian immigration Advantages",
+        "移民优势": {title:"澳大利亚移民优势",
             content: "<ol>" +
-                "<li>Political stability and protection of private property: the government is clean, the people enjoy a wide range of freedom rights, and personal private property is protected by law.</li>" +
-                "<li>Immigrant children enjoy high-quality educational resources: Children can enjoy high-quality educational resources, which is also an important reason why many immigrant clients choose to immigrate to Australia. The eight prestigious schools in Australia have been highly praised by the world and highly praised by all sectors of society. Their high quality education standards and low application thresholds have become a highlight of Australian education.</li>" +
-                "<li>Perfect welfare and first-class education: Australia's social security system was established in 1910 and is recognized as a pioneer in social welfare in the world. Free universal health care, free education from primary to high school. Other benefits: child support, perfect pension system, unemployment relief system, etc.</li>" +
-                "<li>Easy naturalization: Australian naturalization methods are very loose. As long as new immigrants holding permanent resident visas enter Australia, they can apply for Australian citizenship after accumulating three years of residence within five years. Compared with other countries, they are much more relaxed. Language Requirements.</li>" +
-                "<li>No need to register funds. Companies registered in Australia can register directly without providing funds. Registration is simple, take shorter time, and is highly efficient.</li>" +
-                "<li>The cradle of technological entrepreneurship, high-tech companies have easier access to funds from overseas capital markets, turning Chinese technology into overseas technology, and paving the way for overseas capital to enter technology.</li>" +
-                "<li>With the reputation of an Australian company (foreign or joint venture), once invest and operate in China, the company can enjoy various preferential policies of the Chinese government, such as large part of the costs of the company's offices in China (including wages, advertising costs, office rents, Air tickets, etc.) can be exempted. Suitable for trading companies.</li>" +
+                "<li>政局稳定，保护私有财产：政府廉洁，人民享有广泛的自由权利，个人私有财产受到法律保护</li>" +
+                "<li>移民子女享有高质量教育资源： 孩子们可以享受到优质的教育资源，这也是很多移民客户选择移民澳洲的重要原因。澳大利亚的8所名校一直受到世界的高度赞扬，受到社会各界的高度评价。他们的高质量教育标准和低申请门槛已经成为澳大利亚教育的一个亮点</li>" +
+                "<li>福利完善，教育一流：澳洲社会保障体系1910年建立，被全世界公认为社会福利事业的先驱，免费的全民医疗，从小学到高中的免费教育，其他福利：儿童助养费，完善养老金制度，失业救济体系等</li>" +
+                "<li>轻松入籍：澳洲入籍方法非常宽松，只要持永久居民签证的新移民入境澳洲后，在五年内累计住满三年就可以申请澳大利亚国籍，相比其他国家要宽松很多，当然还要符合无犯罪及语言要求</li>" +
+                "<li>无需注册资金。在澳洲注册公司，无需提供资金，可直接进行注册。注册手续简单，时间短，效率高</li>" +
+                "<li>技术创业的摇篮，高新技术企业更容易获得海外资本市场的资金，使中国技术变成海外技术，从而为海外资本进入技术铺平道路</li>" +
+                "<li>以澳大利亚公司（外商或合资企业）的名誉，在中国国内进行投资和经营业务，享受中国政府的各类优惠政策如公司在中国设立的办事处很大部分费用（包括工资、广告费、办公室租金、机票等）可以得到减免。适宜贸易公司</li>" +
                 "</ol>"},
-        "Skilled Independent Visas": {title:"Skilled Independent Visas", content: "Skilled Independent Visas content"},
-        "Parents Visa": {title:"Parents Visa",
-            content: "<h4>Parents Visa</h4>" +
-                "Generally, the following are requirements for all parent categories:" +
+        "独立技术移民": {title:"独立技术移民", content: ""},
+        "父母移民": {title:"父母移民签证",
+            content: "<h4>父母移民签证</h4>" +
+                "申请父母移民签证应符合以下条件:" +
                 "<ul>" +
-                "<li>You must be a parent of a child who is an Australian citizen, Australian permanent resident or eligible New Zealand citizen.</li>" +
-                "<li>Your child must be settled in Australia (in most cases as a resident for at least 2 years) and must sponsor you.</li>" +
-                "<li>You must pass the balance of family test – at least half of your children must live permanently in Australia or you must have more children living permanently in Australia than in any other single country.</li>" +
-                "<li>You must meet health and character requirements</li>" +
-                "<li>If you are applying for any category that has the word ‘aged’ in its title, you must meet the definition of an Aged Parent (see the Parent Migration booklet)</li>" +
+                "<li>您必须是澳大利亚公民，澳大利亚永久居民或合资格的新西兰公民的父母</li>" +
+                "<li>您的子女必须定居在澳大利亚（多数情况下，至少居住满两年）并且是您担保人</li>" +
+                "<li>您必须通过家庭成员均衡比例测试——您至少有一半数的子女长久地居住在澳大利亚或您的子女中居住在澳大利亚的比居住在其他国家的要多</li>" +
+                "<li>您必须符合有关的健康和品行要求</li>" +
+                "<li>若您打算申请任何“年老”类别签证，您必须满足作为一\"年老\"父母的条件（请参阅《父母类移民手册》）</li>" +
                 "</ul>" +
-                "<h4>Visa Options</h4>" +
-                "Parents can apply for migration to Australia under one of the following visa classes:           " +
+                "申请人可申请以下其中一种类别的父母类移民签证:" +
                 "<ul>" +
-                "<li>Parent Migrant (subclass 103) </li>" +
-                "<li>Contributory Parent Migrant (subclass 143)</li>" +
-                "<li>Contributory Parent Temporary (subclass 173) </li>" +
-                "<li>Aged Parent (subclass 804)</li>" +
-                "<li>Contributory Aged Parent Residence (subclass 864)</li>" +
-                "<li>Contributory Aged Parent Temporary (subclass 884)</li>" +
+                "<li>父母移民签证（103类别） </li>" +
+                "<li>有贡献类父母移民（143类）</li>" +
+                "<li>有贡献类父母移民临时签证（173类）</li>" +
+                "<li>年老父母移民签证（804类别）</li>" +
+                "<li>有贡献类年老父母居住签证（864类）</li>" +
+                "<li>有贡献类年老父母移民临时签证（884类）</li>" +
                 "</ul>" +
-                "<h4>Applying for this visa</h4>" +
-                "You need:" +
+                "您需要提供:" +
                 "<ul>" +
-                "<li>Form 47PA</li>" +
-                "<li>Form 40 (signed by your sponsor)</li>" +
-                "<li>Form 80</li>" +
-                "<li>Application fee</li>" +
-                "<li>Other supporting documentation (refer to part K of form 47PA).</li>" +
+                "<li>47PA表</li>" +
+                "<li>40表 (由您的担保人签名)</li>" +
+                "<li>80表</li>" +
+                "<li>申请费</li>" +
+                "<li>其他辅助性文件，可参考47PA表格的K部分</li>" +
                 "</ul>"},
-        "Spouse Visa": {title:"Spouse Visa",
-            content: "<p>If you are married, provide your marriage certificate or other evidence that your marriage is valid in Australia. If you are a de facto partner, provide proof of your de facto relationship.</p>" +
-                "<p>This proof should show that:</p>" +
+        "配偶签证": {title:"配偶签证",
+            content: "<h4>基本要求</h4>" +
                 "<ul>" +
-                "<li>you have a mutual commitment with your spouse of de facto partner to the exclusion of all others</li>" +
-                "<li>your relationship is genuine and continuing</li>" +
-                "<li>you either live together or don't live permanently apart</li>" +
-                "<li>you are not related by family</li>" +
+                "<li> 担保人为澳大利亚公民或永久居民的身份证明, 例如经过认证的护照复印件或澳大利亚出生证</li>" +
+                "<li>每位申请人的出生公证</li>" +
+                "<li>每位16周岁及以上申请人的无犯罪记录公证</li>" +
+                "<li>申请人及其子女（无论是否申请移民）的近期照片各4张，担保人的近期护照照片2张。请在每张照片的背面写上姓名与出生日期</li>" +
+                "<li>担保人在澳大利亚就业情况的证明。可包括其雇主出具的雇佣信(需写明收入情况)、工资单或税单</li>" +
+                "<li>申请人与担保人关于伴侣关系建立与发展过程的书面陈述</li>" +
+                "<li>您的护照复印件</li>" +
                 "</ul>" +
-                "<p>Tell us in writing about:</p>" +
+                "<p>关系证明材料:</p>" +
                 "<ul>" +
-                "<li>how, when and where you first met</li>" +
-                "<li>how the relationship developed</li>" +
-                "<li>when you moved in together, got engaged or married</li>" +
-                "<li>what you do together</li>" +
-                "<li>time you spent apart</li>" +
-                "<li>significant events in the relationship</li>" +
-                "<li>your plans for the future</li>" +
-                "</ul>" +
-                "<b>Finances</b>" +
-                "<p>Show us how you and your partner share financial matters. You could give us:</p>" +
-                "<ul>" +
-                "<li>joint mortgage or lease documents</li>" +
-                "<li>joint loan documents for major assets like homes, cars or major appliances</li>" +
-                "<li>joint bank account statements</li>" +
-                "<li>household bills in both names</li>" +
-                "</ul>" +
-                "<b>Your household</b>" +
-                "<p>Show us how you and your partner share domestic matters. You could give us:</p>" +
-                "<ul>" +
-                "<li>a statement about how you share housework</li>" +
-                "<li>household bills in both names</li>" +
-                "<li>mail or emails addressed to you both</li>" +
-                "<li>documents that show joint responsibility for children</li>" +
-                "<li>documents that prove your living arrangements</li>" +
-                "</ul>" +
-                "<b>Social matters</b>" +
-                "<p>Show us evidence that others know about your relationship, such as</p>" +
-                "<ul>" +
-                "<li>joint invitations or evidence you go out together</li>" +
-                "<li>proof you have friends in common</li>" +
-                "<li>proof you have told government, public or commercial bodies about your relationship</li>" +
-                "<li>proof you do joint sporting, cultural or social activities together</li>" +
-                "<li>proof you travel together</li>" +
-                "</ul>" +
-                "<b>Commitment</b>" +
-                "<p>Show us how you are committed to a long-term relationship with each other. You could give us:</p>" +
-                "<ul>" +
-                "<li>proof you have knowledge of each other’s background, family situation or other personal details. You could tell us this at an interview</li>" +
-                "<li>proof you have combined your personal matters</li>" +
-                "<li>the terms of your wills</li>" +
-                "<li>proof you stay in touch when apart</li>" +
-                "</ul>"},
+                "<li>您与担保人共同生活在中国并维系家庭的证明材料。例如，联名房屋租赁协议、联名财产、在相当一段时期内寄往同一地址的邮件、注明居住地址的小区出入证、临时居留许可证和外国人工作许可证</li>" +
+                "<li>您与担保人分居两地时保持联系的证明材料。此类证明材料很重要，尤其是对于长期分居的个案来说。此类证明材料可以包括信件(包括信封与信的内容）、电话帐单、IP卡打印单和电子邮件（包括收发日期), 网上聊天记录, 短信记录等</li>" +
+                "<li>您与担保人的关系为亲戚朋友所认知的证明材料。比如，您与担保人在关系发展整个过程中与第三方的合影以及亲戚朋友对你们关系的认知陈述或宣誓书(888表格)。这些陈述必须附有陈述人的身份证与联系电话</li>" +
+                "<li>您与担保人的共同经济安排，或者在关系发展/婚姻过程中互相提供经济资助的的证明材料</li>" +
+                "<li>您与担保人共同承担抚养孩子的职责的证明材料</li>" +
+                "<li>如果您与担保人曾在澳大利亚共同居住，可以提供任何相关证明，诸如联名房屋租赁协议，联名公用事业费账单和房租收据等</li>" +
+                "</ul>"
+        },
 
-        "EQI": {title:"EQI",
-            content: "<b>Introduction</b>" +
+        "昆士兰国际教育处": {title:"昆士兰国际教育处",
+            content: "<b>介绍</b>" +
                 "<p><a href='https://eqi.com.au'>https://eqi.com.au</a></p>" +
-                "<p>EQI is for the international branch of the Queensland Department of Education (Department of Education International).</p>" +
-                "<p>EQI offer a wide range of short- and long-term programs for international students of all ages to study in a Queensland Government School. International student programs include: </p>" +
+                "<p>EQI，即昆士兰国际教育处，负责安排昆士兰州的中小学国际学术申请。\n" +
+                "昆士兰州政府公立学校提供高标准教育，使学生将来可以灵活选择学业和 职业路径。 完成 11 和 12 年级的学习可以获得国际认可的高中学历──昆士兰州教育证 书（QCE）。 有了这个学历证书，国际学生就可以有一系列进一步学习和培训的选择， 为将来从事自己喜欢的职业做好准备</p>" +
+                "<p>昆士兰州政府公立学校体系学制：共 13 年。小学从学前班（5 岁）一直到 6 年级。中学从 7 年级起至 12 年级结束。如果学生想参加职业培训或就业，可在 10 年级完成中学学业。 这称为完成 “初级中学”。 EQI为各个年龄段的国际学生提供各种短期和长期课程，供他们在昆士兰州政府学校学习</p>" +
+                "<p>国际学生课程包括</p>" +
                 "<ul>" +
-                "<li>Primary school</li>" +
-                "<li>High school</li>" +
-                "<li>Special programs</li>" +
+                "<li>小学</li>" +
+                "<li>高中</li>" +
+                "<li>特别节目</li>" +
                 "<li>STEM</li>" +
-                "<li>International Baccalaureate</li>" +
-                "<li>Holiday adventure programs</li>" +
+                "<li>国际文凭</li>" +
+                "<li>假日探险计划</li>" +
                 "</ul>" +
-                "<p>EQI also offers:</p>" +
-                "Study tours for short-term visits, which combine educational, tourism and cultural activities for groups of international students" +
-                "<p>EQI School List:</p>" +
+                "<p>EQI 学校名单:</p>" +
                 "<a href='https://eqi.com.au/find-a-school/eqi-school-list'>https://eqi.com.au/find-a-school/eqi-school-list</a>"},
-        "Griffith College": {title:"Griffith College",
-            content: "<b>Introduction</b>" +
+        "格里菲斯学院": {title:"格里菲斯学院",
+            content: "<b>学院介绍</b>" +
                 "<p><a href=\"https://www.griffith.edu.au/college\">https://www.griffith.edu.au/college</a></p>" +
-                "<p>Located on campus in Brisbane and the Gold Coast, Griffith College is your best on-campus pathway to the second year at Griffith University.  Worried about grades? With lower entry requirements and a more supportive learning environment, Griffith College is your pathway to successful further study.</p>" +
-                "<p>Located on two of Griffith University campuses at Mt Gravatt and the Gold Coast, you will have the choice between studying near to the thriving capital of Queensland or the more relaxed pace of the Gold Coast.</p>" +
-                "<b>Pathway to Griffith University</b>" +
+                "<p>格里菲斯学院位于布里斯班和黄金海岸的校园内，是您到格里菲斯大学二年级最好的读书捷径。 担心成绩？ 格里菲斯学院具有较低的入学要求和更支持学习的环境，是您成功进修的途径。举个例子，一般本科学校要求雅思学术类总分6.5分，单科不低于6分，而就读于格里菲斯学院的国际大一课程(Diploma),雅思学术类成绩只要总分5.5分，单科不低于5分。Diploma课程结束后一般都可以直升大二（免掉1年的大一课程）</p>" +
+                "<p>坐落在格拉夫特山和黄金海岸的格里菲斯大学两个校区，您可以选择在繁荣的昆士兰州首府学习还是在黄金海岸放松脚步学习</p>" +
+                "<b>通往格里菲斯大学的途径</b>" +
                 "<ul>" +
-                "<li>Foundation</li>" +
-                "<li>Arts and Communication</li>" +
-                "<li>Commerce</li>" +
-                "<li>Criminology and criminal justice</li>" +
-                "<li>Design</li>" +
-                "<li>Engineering</li>" +
-                "<li>Health care</li>" +
-                "<li>Health sciences</li>" +
-                "<li>Hotel management</li>" +
-                "<li>Information technology</li>" +
-                "<li>Science</li>" +
-                "<li>Social and Psychological Science</li>" +
-                "<li>Associate degree in Commerce and business</li>" +
-                "<li>Masters Qualifying program</li>" +
+                "<li>预科课程 -高二毕业的学术，读完预科直升大一</li>" +
+                "<li>艺术与传播</li>" +
+                "<li>商务</li>" +
+                "<li>犯罪学和刑事司法</li>" +
+                "<li>设计</li>" +
+                "<li>工程</li>" +
+                "<li>保健</li>" +
+                "<li>健康科学</li>" +
+                "<li>饭店管理</li>" +
+                "<li>信息技术</li>" +
+                "<li>科学</li>" +
+                "<li>社会与心理学</li>" +
+                "<li>商学副学士学位</li>" +
+                "<li>硕士预科课程 - 直升硕士</li>" +
                 "</ul>"},
-        "Griffith Uni": {title:"Griffith Uni", content: " " +
-                "<b>Introduction</b>" +
+        "格里菲斯大学": {title:"格里菲斯大学", content:
+                "<b>学校介绍</b>" +
                 "<p><a href=\"https://www.griffith.edu.au\">https://www.griffith.edu.au</a></p>" +
-                "<p>Griffith University is a public research university in South East Queensland on the east coast of Australia. Formally founded in 1971." +
-                "<p>Ranking in the top 2% of universities worldwide, Griffith University offers future-focused degrees that are developed in consultation with industry, based on cutting-edge research, and taught by Australia’s most awarded teachers." +
-                "<p>The University now has five physical campuses spanning three cities, the largest of which are the Gold Coast campus at Southport and the Nathan campus in Brisbane. The Mount Gravatt and South Bank campuses are also located in Brisbane, while the Logan campus is at Meadowbrook. In 2018, the University launched its Digital campus, now its sixth campus, which offers a range of online degrees. " +
-                "<p>Griffith has over 50,000 students and offers a full suite of undergraduate, postgraduate and research degrees in the areas of business and government, criminology and law, education, engineering and information technology, environment, planning and architecture, health, humanities and languages, music, science and aviation, and visual and creative arts." +
-                "<p><b>Migration Advantage</b></p>" +
-                "<p>Griffith University offers degrees in Accounting, Engineering, Information Technology, Multimedia, Nursing, Social Work, Education, Law... which are all in MLTSSL migration list. " +
-                "3 Semesters a year, you can graduate faster than other people." +
-                "On 16 November 2019, Department of Homes Affairs announced new “Designated regional ares” policy, and Most locations of Australia outside major cities (Sydney, Melbourne and Brisbane) are classed as designated regional areas for migration purposes. If you study in Griffith University’s Gold Coast Campus for 2 years, you will get 5 extra points for regional area study. You also have more chance to apply for subclass 491 visa (Skilled Work Regional - provisional visa)." +
-                "</p>" +
-                "<p><b>Recommended programs</b></p>" +
+                "<p>格里菲斯大学是一所全球排名前2％的公立研究机构，提供多样的本科和研究生课程。该大学是一所排名很高的年轻大学，在2019年QS世界大学排名中“建校不超过50年的50强机构”排名第35位</p>" +
+                "<p>因为学生获得的出色整体教育体验而获得五星评级（优秀大学指南），该大学以其高质量的教学和研究而闻名于世。学生有机会攻读各种学科，包括商业和政府、工程、IT和航空、科学和环境。学生可在超过200个学位中选择，同时获得和行业紧密联系的额外好处</p>" +
+                "<p>凭借其课程的全球形象，在2019年“世界大学学术排名”中，格里菲斯大学的部分学科被列入全球前300名。此外，该机构因其研究实力而获得认可，根据2018年“澳大利亚杰出研究计划”，该大学的50个学科达到世界标准或超过世界标准</p>" +
+                "<p>格里菲斯的学生可以得到各种设施、服务和活动的整体体验。学生可以利用学习空间，加入体育俱乐部，进入实验室，在格里菲斯享受户外生活。校区位于澳大利亚的三个主要城市，即洛根、布里斯班和黄金海岸。所有这些都为学生提供了享受自然美景和城市景点的机会。凭借40多年的教育专业知识，格里菲斯大学拥有优秀毕业生的记录，拥有超过130个国家的20万名校友</p>" +
+                "<p><b>移民优势</b></p>" +
                 "<ol>" +
-                "<li>Hospitality and Leisure Management (ranked 2nd) worldly" +
+                "<li>格里菲斯大学提供会计，工程，信息技术，多媒体，护理，社会工作，教育，法律...等学位，这些都在MLTSSL移民清单中</li>" +
+                "<li>一年3个学期，您可以比其他人更快毕业，更早申请移民</li>" +
+                "<li>2019年11月16日，内政部宣布了新的“指定区域性地区”政策，澳大利亚主要城市（悉尼，墨尔本和布里斯班）以外的大多数地区被归类为移民目的的指定区域。 如果您在格里菲斯大学的黄金海岸校区学习2年，您将获得额外的5分地区学习分数。 您也有更多机会申请491类签证（区域性临时技术签证）</li>" +
+                "</ol>" +
+
+                "<p><b>强力推荐课程</b></p>" +
+                "<ol>" +
+                "<li>酒店与休闲管理（世界排名第二）" +
                 "<ul>" +
-                "<li>Bachelor of International Tourism and Hotel Management</li>" +
-                "<li>Master of International Tourism and Hospitality Management</li>" +
+                "<li>国际旅游和酒店管理学士</li>" +
+                "<li>国际旅游和酒店管理硕士</li>" +
                 "</ul>" +
                 "</li>" +
-                "<li>Nursing (ranked 4th) worldly" +
+                "<li>护理（世界排名第4）" +
                 "<ul>" +
-                "<li>Bachelor of Nursing</li>" +
-                "<li>Bachelor of Midwifery</li>" +
+                "<li>护理学学士</li>" +
+                "<li>助产学士</li>" +
                 "</ul>" +
                 "</li>" +
-                "<li>Law (ranked 29th) worldly" +
+                "<li>世界法律（世界排名第29）" +
                 "<ul>" +
-                "<li>Bachelor of Laws (Honours)</li>" +
+                "<li>法学学士（荣誉学位）</li>" +
                 "</ul>" +
                 "</li>" +
                 "</ol>" +
                 ""},
-        "Contact Info": {title:"Contact Info", content:
+        "联系我们": {title:"联系我们", content:
                 "<p></p>"},
     };
 }

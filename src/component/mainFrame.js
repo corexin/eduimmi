@@ -29,8 +29,8 @@ export default class MainFrame extends React.Component {
                     <div className="card-header bg-info"><h4>{this.state.title}</h4></div>
                     <div className="card-body">
                         <Markup content={output} />
-                        {this.state.title === ("Skilled Independent Visas") &&  <SkilledIndependentVisas /> }
-                        {this.state.title === ("Contact Info") &&  <ContactUs /> }
+                        {this.state.title === ("独立技术移民") &&  <SkilledIndependentVisas /> }
+                        {this.state.title === ("联系我们") &&  <ContactUs /> }
                     </div>
                 </div>
             </div>

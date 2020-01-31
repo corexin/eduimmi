@@ -39,8 +39,8 @@ export default class App extends React.Component {
     }
 
     handleContact =(e) =>{
-        let displayTitle = Data.data["Contact Info"]['title'];
-        let displayValue = Data.data["Contact Info"]['content'];
+        let displayTitle = Data.data["联系我们"]['title'];
+        let displayValue = Data.data["联系我们"]['content'];
 
         this.mainFrame.current.setState({
             title: displayTitle,
