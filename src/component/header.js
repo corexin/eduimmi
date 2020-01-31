@@ -8,7 +8,7 @@ export default class Header extends React.Component {
             <div className="container-fluid">
             <div className = "row align-items-baseline d-flex p-2" >
                 <div className = "col-" >
-                   <span class="display-4 text-info">Victor International Pty Ltd</span>
+                   <span class="display-4 text-info">成功留学移民公司</span>
                 </div>
                 <div className="col-auto mr-auto mt-auto">
 
