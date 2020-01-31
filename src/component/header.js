@@ -12,7 +12,7 @@ export default class Header extends React.Component {
                     <a href="./"> <img src={logo}  alt={'Eduimmi.com.au'}/></a>
                 </div>
                 <div className="col-auto mr-auto mt-auto">
-                    <h4 className="text-info">www.eduimmi.com.au</h4>
+                    <span className="display-4 text-info">Victor International Pty Ltd</span>
                 </div>
                 <div className = "col-auto mt-sm-auto" >
                     <a href='/cn' className="btn btn-info btn-lg  align-items-md-end">中文</a>
